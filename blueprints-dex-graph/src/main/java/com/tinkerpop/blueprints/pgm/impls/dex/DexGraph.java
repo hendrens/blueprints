@@ -130,9 +130,7 @@ public class DexGraph implements IndexableGraph, WrappableGraph<Graph> {
      * {@link #LABEL} sets the label of the vertex to be created. If this is
      * null the {@link #DEFAULT_DEX_VERTEX_LABEL} is used.
      *
-     * @param id In case this is an instance of Long, then it corresponds to
-     *           the identifier of the instance to be retrieved. Otherwise, it
-     *           is ignored.
+     * @param id is ignored.
      * @return Added or retrieved Vertex.
      * @see com.tinkerpop.blueprints.pgm.Graph#addVertex(java.lang.Object)
      */
